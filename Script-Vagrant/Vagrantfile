@@ -1,0 +1,9 @@
+ Vagrant.configure("2") do |config|
+    config.vm.box = "centos/7"
+    config.disksize.size = "50GB"
+    config.vm.provider "virtualbox" do |v|
+      v.name = "teste-zeppelin"
+      v.memory = 4096
+      v.cpus = 2
+    end
+end
