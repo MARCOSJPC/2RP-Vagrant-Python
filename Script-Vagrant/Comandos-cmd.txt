@@ -1,3 +1,5 @@
-vagrant init centos/7
+vagrant init centos/7 - Gerar o arquivo Vagrantfile
 
-vagrant plugin install vagrant-disksize
+vagrant plugin install vagrant-disksize - instalação do plugin de armazenamento de disco
+
+vagrant up - instalar e subir a VM 
